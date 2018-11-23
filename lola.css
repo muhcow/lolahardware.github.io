@@ -33,7 +33,7 @@ div.video{
 }
 
 div.clipsPage{
-  background-image: url("lolabackground1.png");
+  background-image: url("assets/lolabackground1.png");
 }
 
 div.homies {
@@ -105,6 +105,12 @@ div.contact {
   display:inline-block;
 }
 
+div.homiePics{
+  position: relative;
+  left: 200px;
+  top: 40px;
+}
+
 div.raysonSquare {
 
   overflow:hidden;
@@ -115,6 +121,7 @@ div.raysonSquare {
   position: relative;
   left: 100px;
   top: 100px;
+
 
 }
 
@@ -155,4 +162,43 @@ div.Josephpic {
   left: 990px;
   top: -600px;
 
+}
+
+div.Lachypic {
+
+  overflow:hidden;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius:100%;
+  display:inline-block;
+  position: relative;
+  left: 990px;
+  top: -600px;
+
+}
+
+      #homeLinkClips {
+    font-size: 35px;
+    position: relative;
+    left: 50px;
+    top:  -3560px;
+
+    border: 10px solid orange;
+    border-radius: 1100px;
+    background-color:white;
+
+    display: inline;
+}
+
+  #homeLinkHomies {
+    font-size: 35px;
+    position: relative;
+    left: 50px;
+    top:  -680px;
+
+    border: 10px solid orange;
+    border-radius: 1100px;
+    background-color:white;
+
+    display: inline;
 }
