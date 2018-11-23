@@ -192,9 +192,9 @@ div.Lachypic {
 
   #homeLinkHomies {
     font-size: 35px;
-    position: relative;
+    position: absolute;
     left: 50px;
-    top:  -680px;
+    top:  50px;
 
     border: 10px solid orange;
     border-radius: 1100px;
