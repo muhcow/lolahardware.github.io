@@ -179,9 +179,9 @@ div.Lachypic {
 
       #homeLinkClips {
     font-size: 35px;
-    position: absolute;
+    position: relative;
     left: 50px;
-    top:  50px;
+    top:  -3560px;
 
     border: 10px solid orange;
     border-radius: 1100px;
@@ -192,13 +192,26 @@ div.Lachypic {
 
   #homeLinkHomies {
     font-size: 35px;
-    position: absolute;
+    position: relative;
     left: 50px;
-    top:  50px;
+    top:  -680px;
 
     border: 10px solid orange;
     border-radius: 1100px;
     background-color:white;
 
     display: inline;
+}
+
+#CPcircle{
+  position: absolute;
+    left: 800px;
+    top:  410px;
+}
+
+#LopezCircle{
+  position: absolute;
+    left: 880px;
+    top:  110px;
+    height: 50%
 }
