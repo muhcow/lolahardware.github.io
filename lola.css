@@ -179,9 +179,9 @@ div.Lachypic {
 
       #homeLinkClips {
     font-size: 35px;
-    position: absolute;
-    left: 30px;
-    top:  40px;
+    position: relative;
+    left: 50px;
+    top:  -3560px;
 
     border: 10px solid orange;
     border-radius: 1100px;
@@ -220,4 +220,12 @@ div.Lachypic {
   position: absolute;
   top:  0px;
   left: 0px;
+}
+
+#results
+{
+  list-style: none;
+  line-height:20em;
+  text-align: center;
+  
 }
