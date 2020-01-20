@@ -72,6 +72,18 @@ div.clips {
     display: inline;
 }
 
+div.lookbook {
+  font-size: 30px;
+  position: relative;
+  left: 310px;
+  top: 70px;
+
+  border: 10px solid orange;
+  border-radius: 1100px;
+
+  display: inline;
+}
+
 div.contact {
     font-size: 30px;
     position: relative;
@@ -179,9 +191,9 @@ div.Lachypic {
 
       #homeLinkClips {
     font-size: 35px;
-    position: absolute;
-    left: 30px;
-    top:  40px;
+    position: relative;
+    left: 50px;
+    top:  -3560px;
 
     border: 10px solid orange;
     border-radius: 1100px;
@@ -212,8 +224,15 @@ div.Lachypic {
 #LopezCircle{
   position: absolute;
     left: 880px;
-    top:  110px;
-    height: 50%
+    top:  170px;
+    height: 40%
+}
+
+#princeCircle{
+  position: absolute;
+    left: 890px;
+    top:  -40px;
+    height: 33%
 }
 
 #lolaGIF{
@@ -221,5 +240,3 @@ div.Lachypic {
   top:  0px;
   left: 0px;
 }
-
-
