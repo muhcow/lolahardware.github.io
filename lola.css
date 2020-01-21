@@ -41,10 +41,8 @@ div.homies {
     position: relative;
     left: 300px;
     top: -160px;
-
     border: 10px solid orange;
-    border-radius: 1100px;
-
+    border-radius: 11000px;
     display: inline;
 }
 
@@ -239,4 +237,90 @@ div.Lachypic {
   position: absolute;
   top:  0px;
   left: 0px;
+}
+
+@media screen and (max-width:1328px){
+  div.header {
+    background: rgb(255, 0, 0);
+}
+
+div.c{
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+div.homies {
+  text-align: center;
+  font-size: 30px;
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 10px solid orange;
+  border-radius: 1100px;
+  left: auto;
+  top: auto;
+  width:190px;
+}
+
+div.shop {
+  text-align: center;
+  font-size: 30px;
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 10px solid orange;
+  border-radius: 1100px;
+  left: auto;
+  top: auto;
+  width:190px;
+}
+
+div.clips {
+  text-align: center;
+  font-size: 30px;
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 10px solid orange;
+  border-radius: 1100px;
+  left: auto;
+  top: auto;
+  width:190px;
+}
+
+div.contact {
+  text-align: center;
+  font-size: 30px;
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 10px solid orange;
+  border-radius: 1100px;
+  left: auto;
+  top: auto;
+  width:190px;
+}
+div.lookbook {
+  text-align: center;
+  font-size: 30px;
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 10px solid orange;
+  border-radius: 1100px;
+  left: auto;
+  top: auto;
+  width:190px;
+}
 }
