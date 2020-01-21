@@ -14,6 +14,11 @@ div.header {
 
 }
 
+div.lolaGIF{
+  position: relative;
+  top: -700px;
+}
+
 div.b {
     line-height:1em;
     margin-top: 100px;
@@ -73,8 +78,8 @@ div.clips {
 div.lookbook {
   font-size: 30px;
   position: relative;
-  left: 310px;
-  top: 70px;
+  left: 370px;
+  top: -250px;
 
   border: 10px solid orange;
   border-radius: 1100px;
@@ -241,7 +246,7 @@ div.Lachypic {
 
 @media screen and (max-width:1328px){
   div.header {
-    background: rgb(255, 0, 0);
+    
 }
 
 div.c{
@@ -322,5 +327,14 @@ div.lookbook {
   left: auto;
   top: auto;
   width:190px;
+}
+div.lolaGIF{
+  display: grid;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+left: auto;
+  top: auto;
 }
 }
